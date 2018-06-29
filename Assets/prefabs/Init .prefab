@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &194762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 483964}
+  - component: {fileID: 11453580}
+  - component: {fileID: 11435322}
+  m_Layer: 0
+  m_Name: 'Init '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &483964
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.729137, y: 21.032696, z: -41.82206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11435322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d016b06b9089e9f47a9c07853a3831ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WindowsWorkstation: {fileID: 133082, guid: 803852f538ca2c444b5cc2a7bba51647, type: 2}
+  LinixWorkstation: {fileID: 143744, guid: 621e4177ee669c34aa26530f008dda02, type: 2}
+  Printer: {fileID: 122918, guid: 0ae638656c35e3f41ab75befcc8e7608, type: 2}
+  Router: {fileID: 103494, guid: 1afabbf850729d340b7b5322e85ff302, type: 2}
+  Switch: {fileID: 127142, guid: 74e1af7f1d448d340bb2e3eb4c4ac7c0, type: 2}
+  Firewall: {fileID: 195106, guid: e04c0e8c1106c064b82f2d44340aebd6, type: 2}
+--- !u!114 &11453580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1ca0df5ef3fc54c98d3dbe3dc43f71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 194762}
+  m_IsPrefabParent: 1
